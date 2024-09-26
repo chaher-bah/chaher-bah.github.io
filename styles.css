@@ -1,0 +1,43 @@
+body {
+    background-color: #FFF5E1;
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+    color: #333;
+}
+h1, h2 {
+    color: #2C5F2D;
+}
+h1 {
+    font-size: 2em;
+}
+ul strong{
+    color:#2F4550;
+    font-size: 1.2rem;
+}
+.pic {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+}
+
+.pic img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+.section {
+    margin-bottom: 30px;
+}
+a {
+    color: #005f99;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
